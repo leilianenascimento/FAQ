@@ -1,0 +1,222 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  
+  text-align: center;
+}
+
+body {
+  background-color: #e4e4e4;
+  scroll-behavior: smooth;
+  margin: 50px 10px;
+  overflow-y: scroll;
+  margin: 50px auto;
+}
+
+#area {
+  margin: 190px auto;
+  max-width: 900px;
+}
+
+p {
+  text-align: center;
+  font-variant-position: super;
+  font-size: 15px;
+}
+
+.pergunta {
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  font-size: 25px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  transition: 0.15s;
+  outline: none;
+  font-family: "Times New Roman", Times, serif;
+  border: 1px solid rgb(255, 255, 255);
+  background-color: #154463;
+  box-sizing: border-box;
+}
+
+.pergunta:hover {
+  background-color: #226694;
+  color: white;
+}
+
+.resposta {
+  padding: 20px;
+  display: none;
+  margin-bottom: 20px;
+  transition: 0.10s;
+  box-sizing: border-box;
+}
+
+.imagem {
+  width: 80%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.main-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: #faf8f8;
+  background-color: #154463;
+}
+
+.logo {
+  width: 120px;
+  height: auto;
+  position: fixed;
+  top: 0px;
+  right: 20px;
+}
+
+.pesquisa {
+  text-align: right;
+}
+
+input,
+button {
+  border-radius: 8px;
+  padding: 7px;
+  border-color: #154463;
+  margin-bottom: 10px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.menu {
+  background-color: #154463;
+  height: 100%;
+  width: 280px;
+  position: fixed;
+  top: 0;
+  left: -30px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.menu a {
+  color: #ffffff;
+  display: block;
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 10px;
+  transition: 0.4s;
+}
+
+.menu a:hover {
+  background-color: #226694;
+  color: #ffffff;
+}
+
+h1 {
+  font-size: 25px;
+  color: #154463;
+}
+
+h2,
+p {
+  color: #154463;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+/*Menu*/
+
+.lista {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  background-color: #154463;
+  text-align: center;
+}
+
+.lista a {
+  color: white;
+  display: block;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.lista a:hover {
+  background-color: #226694;
+}
+
+.nav {
+  margin-left: 250px;
+  padding-left: 80px;
+  margin-right: 250px;
+  padding-right: 30px;
+  font-size: 10px;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  padding: 5px;
+  background-color: #154463;
+  border-radius: 10px;
+  color: white;
+}
+
+h4 {
+  color: #154463;
+  background-color: rgb(211, 211, 211);
+  padding: 5px;
+  padding: auto;
+  border-radius: 15px;
+  text-align: center;
+  margin: auto;
+  max-width: 500px;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+#botao {
+  float: right;
+  padding: 3px;
+}
+
+/*Submenu*/
+
+#submenu-list {  
+  padding: 10px;
+  transition: 1.5s;
+}
+
+#submenu-list a:hover {
+  color: white;
+  border-radius: 15px;
+}
+
+#submenu-ticket {  
+  padding: 10px;
+  transition: 1.5;
+}
+
+#submenu-ticket a:hover {
+  background-color: #377faf;
+  color: white;
+  border-radius: 15px;
+}
+
+#submenu-fisco {  
+  padding: 10px;
+  transition: 1.5;
+}
+
+#submenu-fisco a:hover {
+  background-color: #377faf;
+  color: white;
+  border-radius: 15px;
+}

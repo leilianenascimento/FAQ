@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ - WebAnalisys</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Imagens/logo-login (1).png" type="image/x-icon">
+
+</head>
+
+<body>
+    <div class="logoimg">
+        <img class="logo" src="Imagens/logo-login (1).png" alt="">
+    </div>
+    <div class="lista">
+
+        <a href="criarfaq.html" class="home"> Menu principal </a>
+        <a href="#ambientefisco" class="botao"> O que é o ambiente Fisco?</a>
+        <a href="#" onclick="toggleMenufisco('submenu-fisco')"> Principais Recursos </a>
+        
+        <a href="#painelnfe" class="botao"> Painel Nfe </a>
+        <a href="#painelservicos" class="botao"> Painel Serviços </a>
+    </div>
+
+    <div class="nav">
+        <div class="section" id="ambientefisco">
+            <h2>O que é o ambiente Fisco?</h2>
+            <p>Oferecemos uma solução abrangente para a gestão de documentos fiscais eletrônicos, simplificando e
+                automatizando a coleta de diversos tipos de documentos, como NFe, CF-e, CT-e e NFS-e. Nosso programa
+                inclui
+                uma funcionalidade robusta de manifestação do destinatário para assegurar a integridade e autenticidade
+                das
+                transações. </p>
+        </div>
+
+        <div class="section" id="principaisrecursos">
+            <h2>Principais Recursos</h2>
+            <h4>Coleta Automática de Documentos Fiscais</h4>
+            <p> Nosso programa automatiza a coleta de documentos fiscais diretamente de órgãos emissores autorizados,
+                eliminando a necessidade de acompanhamento manual para aumentar a eficiência operacional e reduzir
+                erros.
+            </p>
+            <h4>Suporte a Diversos Documentos Fiscais</h4>
+            <p>Cobrimos uma ampla gama de documentos fiscais, incluindo NFes, CF-es, CT-es e NFS-es. Independentemente
+                do
+                tipo de transação comercial, nosso programa é capaz de lidar com a diversidade de documentos fiscais
+                eletrônicos existentes.
+            </p>
+            <h4>Manifestação do Destinatário</h4>
+            <p>Implementamos uma funcionalidade completa de manifestação do destinatário, permitindo que você aceite,
+                rejeite ou realize a confirmação tácita dos documentos fiscais. Essa etapa é crucial para assegurar a
+                validade e conformidade fiscal de suas operações.</p>
+            <h4>Relatórios Detalhados</h4>
+            <p>Geramos relatórios detalhados que oferecem insights valiosos sobre suas transações fiscais. Esses
+                relatórios
+                podem ser personalizados de acordo com suas necessidades, proporcionando uma visão clara e completa de
+                suas
+                obrigações fiscais.</p>
+        </div>
+
+        <div class="section" id="painelnfe">
+            <h2>Painel Nfe </h2>
+
+            <p>O "Painel da NFe" é a interface central que resume visualmente todas as Notas Fiscais Eletrônicas (NFes)
+                da
+                empresa, abrangendo tanto as entradas quanto as saídas de transações fiscais. Esse dashboard oferece uma
+                visão acessível e abrangente das atividades fiscais, facilitando a análise rápida das movimentações
+                financeiras. Alguns elementos comuns no painel incluem</p>
+            <img src="Imagens/dashboardnfe.png" alt="" srcset="">
+            <h2>Status no painel de Nfe</h2>
+
+            <h4>Coletada</h4>
+            <p> Indica que a NFe foi coletada com sucesso, ou seja, ela foi adquirida a partir dos servidores da
+                Secretaria da Fazenda ou de outros emissores autorizados.</p>
+            <h4>Pendente de Entrada</h4>
+            <p>Refere-se a NFes que estão aguardando serem registradas ou contabilizadas no sistema da empresa. São
+                notas que foram coletadas, mas ainda não foram processadas internamente.</p>
+            <h4>Documento Próprio</h4>
+            <p> Mostra as NFes emitidas pela própria empresa como fornecedora. Este status pode indicar que essas NFes
+                estão aguardando confirmação, cancelamento ou outra manifestação do destinatário. </p>
+            <h4>Ciência</h4>
+            <p>Indica que o destinatário recebeu a NFe, mas ainda não manifestou sua ciência. Este status geralmente
+                significa que o destinatário reconheceu o recebimento, mas ainda não realizou uma ação formal de
+                confirmação.</p>
+            <h4>Confirmada</h4>
+            <p> Refere-se às NFes para as quais o destinatário manifestou confirmação. Ele reconheceu e confirmou que
+                recebeu a NFe conforme esperado.</p>
+            <h4>Desconhecida</h4>
+            <p> Indica NFes que são desconhecidas para o destinatário. Isso pode ocorrer quando a NFe não foi destinada
+                à empresa ou se houve algum problema no processo de comunicação. </p>
+            <h4>Não Realizada</h4>
+            <p> Refere-se a situações em que a manifestação do destinatário não foi realizada. Isso pode ocorrer quando
+                o destinatário não toma nenhuma ação específica em relação à NFe.</p>
+            <h4>Cancelada</h4>
+            <p>Mostra NFes que foram canceladas. O cancelamento pode ocorrer por vários motivos, incluindo erros na
+                emissão, duplicidade ou outras razões válidas para o cancelamento.</p>
+            <h4>Quebra de Sequência</h4>
+            <p> Indica a presença de quebras na numeração sequencial das NFes. Esse status destaca quando há lacunas ou
+                interrupções na ordem numérica das NFes, o que pode ser crucial para garantir a integridade dos
+                registros contábeis e fiscais. </p>
+            <h4>Inutilizada</h4>
+            <p> Mostra as NFes que foram inutilizadas. A inutilização ocorre quando há a necessidade de anular uma
+                numeração que não será utilizada, por exemplo, para evitar o uso indevido ou por questões regulatórias.
+            </p>
+            <h4>Denegada</h4>
+            <p>Refere-se a NFes que foram denegadas pela autoridade fiscal. A denegação ocorre quando a autoridade
+                fiscal não autoriza a emissão da NFe, muitas vezes devido a irregularidades ou falta de cumprimento de
+                requisitos fiscais.</p>
+            <h4>Estorno</h4>
+            <p> Indica que uma NFe foi estornada. O estorno é realizado para corrigir transações anteriores, anulando
+                seus efeitos financeiros. Isso pode ocorrer, por exemplo, em casos de devoluções, ajustes de valores ou
+                outras situações que exigem a reversão de uma transação anterior.</p>
+
+        </div>
+
+        <div class="section" id="painelservicos">
+            <h2>Painel Serviços </h2>
+            <p> O Painel de Serviços, conforme descrito, oferece uma visão abrangente das Notas Fiscais de Serviços
+                Eletrônicas (NFS-e), tanto aquelas prestadas quanto tomadas. Aqui estão os principais indicadores e
+                informações que esse painel pode apresentar</p>
+            <img src="Imagens/analiseVendasxcompras.png" alt="" srcset="">
+
+
+            <h4>Valor Notas Prestadas</h4>
+
+            <p>Apresenta os valores das NFS-e emitidas pela sua empresa, destacando informações como valores, data de
+                emissão e o status atual (ativo, cancelado, etc.).</p>
+
+            <h4>Valor Notas Tomadas</h4>
+
+            <p>Apresenta os valores das NFS-e recebidas de outros prestadores de serviços, incluindo detalhes
+                semelhantes de valores, datas e status.</p>
+
+            <h4>Indicativos de Localização</h4>
+
+            <p>Oferece indicativos visuais ou filtros de localização para facilitar a identificação de transações
+                específicas vinculadas a determinadas localidades ou filiais.</p>
+
+            <h4>Status das Notas</h4>
+
+            <p>Distingue entre notas ativas e canceladas para ambas as prestadas e tomadas. Isso proporciona uma visão
+                instantânea do status atual das transações.</p>
+
+            <h4>Valor Total</h4>
+
+            <p>Exibe o valor total acumulado das NFS-e prestadas e tomadas, permitindo uma análise rápida do volume
+                financeiro relacionado aos serviços.</p>
+
+            <h4>Relatórios Detalhados</h4>
+
+            <p>Permite a geração de relatórios detalhados, incluindo informações específicas sobre cada NFS-e, suas
+                características e valores associados.</p>
+
+            <h4>Mapa Geográfico</h4>
+
+            <p>Caso as transações envolvam diferentes localidades geográficas, um mapa interativo pode ser incluído para
+                visualizar a distribuição geográfica das NFS-e.</p>
+
+        </div>
+
+
+    </div>
+    <script src="interacao.js"></script>
+</body>

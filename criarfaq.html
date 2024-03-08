@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale1.0, user-scalable=no">
+    <title>FAQ - WebAnalisys</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Imagens/logo-login (1).png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="caminho/para/styles.css">
+
+
+
+</head>
+
+<body>
+    <div class="logoimg" >
+        <img class="logo"src="Imagens/logo-login (1).png" alt="">
+    </div>
+
+
+    <div class="menu">
+        <div class="pesquisa">
+            <input type="text" name="buscar" id="busca" onkeyup="buscar()">
+            <button type="submit"> &#128270;</button>
+        </div>
+        <ul>
+            <li><a href="#" onclick="toggleSubmenu('submenu-list')"> Fisco</a></li>
+            <ul id="submenu-list">
+                <li><a href="fisco.html"> O que é o ambiente Fisco?</a></li>
+                <li><a href="fisco.html"> Principais Recurso</a></li>
+                <li><a href="fisco.html"> Painel NFE</a></li>
+                <li><a href="fisco.html"> Painel de Serviços</a></li>
+            </ul>
+
+            <li><a href="#" onclick="toggleMenuticket('submenu-ticket')">WebsTicket</a></li>
+            <ul id="submenu-ticket">
+                <li><a href="ticket.html">O que é o WebsTicket?</li></a>
+                <li><a href="ticket.html">Como abrir um ticket?</li></a>
+            </ul>
+            <li><a href="central-de-ajuda.html">&#128226; Central de Ajuda</a></li>
+
+        </ul>
+    </div>
+
+    <div id="area">
+        <h1>DÚVIDAS FREQUENTES!</h1><br>
+
+        <button class="pergunta" id="pergunta-1" onclick="toggleElement('resposta-1')">Como faço para acessar meu painel
+            de NFe? <span id="botao">&#8964;</span></button>
+        <div class="resposta" id="resposta-1">
+            <p> Para acessar o painel de NFe, basta clicar em Fisco > DFe > Painel NFe</p><br>
+            <img src="Imagens/painel-nfe.png" alt="painel-nfe" class="imagem">
+        </div>
+
+        <button class="pergunta" id="pergunta-2" onclick="toggleElement('resposta-2')">Onde acessar o Demonstração do
+            resultado do exercício (DRE)? <span id="botao">&#8964;</span></button>
+        <div class="resposta" id="resposta-2">
+            <p>Para acessar o painel de DRE, basta clicar em Controller > Demonstrativo > DRE</p><br>
+            <img src="Imagens/DRE.png" alt="DRE" class="imagem">
+        </div>
+
+        <button class="pergunta" id="pergunta-3" onclick="toggleElement('resposta-3')">Houve alguma atualização na DRE?
+            <span id="botao">&#8964; </span></button>
+        <div class="resposta" id="resposta-3">
+            <p> <br>
+                O módulo Controller da nossa plataforma, trazendo melhorias notáveis na organização das informações
+                financeiras.
+                Antes, tínhamos muitas informações da Demonstração do Resultado do Exercício (DRE) agrupadas em um único
+                campo chamado "Despesas".
+                Agora, para proporcionar maior clareza e detalh amento, reorganizamos essas informações em categorias
+                específicas.
+            </p>
+        </div>
+        <button class="pergunta" id="pergunta-4" onclick="toggleElement('resposta-4')">Painel da NFe <span
+                id="botao">&#8964;</span></button>
+        <div class="resposta" id="resposta-4">
+            <p>O "Painel da NFe" é a interface central que resume visualmente todas as Notas Fiscais Eletrônicas (NFes)
+                da empresa, abrangendo tanto as entradas quanto as saídas de transações fiscais. Esse dashboard oferece
+                uma visão acessível e abrangente das atividades fiscais, facilitando a análise rápida das movimentações
+                financeiras. Alguns elementos comuns no painel incluem:</p><br>
+            <img src="Imagens/dashboardnfe.png" alt="" srcset="" class="imagem">
+
+        </div>
+        <button class="pergunta" id="pergunta-5" onclick="toggleElement('resposta-5')">Painel Serviços<span
+                id="botao">&#8964;
+            </span></button>
+        <div class="resposta" id="resposta-5">
+            <p>O Painel de Serviços, conforme descrito, oferece uma visão abrangente das Notas Fiscais de Serviços
+                Eletrônicas (NFS-e), tanto aquelas prestadas quanto tomadas. Aqui estão os principais indicadores e
+                informações que esse painel pode apresentar:</p><br>
+            <img src="Imagens/analiseVendasxcompras.png" alt="" srcset="" class="imagem">
+        </div>
+        <button class="pergunta" id="pergunta-6" onclick="toggleElement('resposta-6')">Como faço para realizar abertura
+            de um ticket?<span id="botao">&#8964;
+            </span></button>
+        <div class="resposta" id="resposta-6">
+            <p> Clique no botão "+Criar Ticket", que abrirá a janela "Cadastrar Novo Ticket". Na janela "Cadastrar Novo
+                Ticket", é obrigatório preencher todos os campos apresentados, conforme mostrado na Figura 2.3.
+                Após preencher todos os campos necessários, clique no botão "Enviar" para que a notificação do ticket
+                seja enviada com sucesso.
+            </p><br>
+            <img src="Imagens/webticket.png" alt="" srcset="" class="imagem">
+        </div>
+    </div>
+
+    <script src="interacao.js"></script>
+
+    <footer class="main-footer">
+        <strong>&copy; Webanalisys 2011 - 2024 </strong>
+    </footer>
+
+</body>
+
+</html>
