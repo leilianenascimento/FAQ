@@ -23,6 +23,7 @@ function toggleMenuticket(id) {
         menuticket.style.display = 'block';
     } else {
         menuticket.style.display = 'none';
+
     }
 }
 
